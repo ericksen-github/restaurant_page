@@ -1,0 +1,42 @@
+#contentContainer {
+    width: 100%; 
+    text-align: center;
+} 
+
+#menuBar {
+    width: 100%; 
+    text-align: center;
+    background-color: rgb(152, 252, 219);
+    padding: 15px;
+}
+
+#homeTab, #menuTab, #contactTab {
+    display: inline-block;
+    padding: 10px; 
+    width: 60px; 
+    background-color: rgb(67, 187, 235);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#homeTab:hover, #menuTab:hover, #contactTab:hover {
+    background-color: rgb(37, 166, 218);
+}
+
+#titleDiv, #homeText {
+    display: inline-block;
+    width: 100%; 
+    margin: auto; 
+    padding: 10px; 
+}
+
+#titleDiv {
+    font-size: 40px;
+}
+
+#homeImage {
+    display: inline-block;
+    margin: auto; 
+    padding: 10px; 
+}
